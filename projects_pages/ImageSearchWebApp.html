@@ -1,0 +1,267 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vipul Goel - Projects</title>
+    <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Rubik", serif;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            background-color: #e7e7e7;
+        }
+
+        body::-webkit-scrollbar {
+            display: none;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        ::selection {
+            color: #e7e7e7;
+            background: #e03636;
+        }
+
+        .cursor-area {
+            height: 100vh;
+            width: 100%;
+            position: fixed;
+        }
+
+        .cursor {
+            height: 1.5vw;
+            width: 1.5vw;
+            border-radius: 50%;
+            background-color: #e03636;
+        }
+
+        .project {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
+
+        .back-arrow a {
+            color: #e03636;
+        }
+
+        .back-arrow svg {
+            position: absolute;
+            top: 1em;
+            left: 1em;
+            height: 3vw;
+        }
+
+        .project-image {
+            background-color: #e036362d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 26vw;
+        }
+
+        .project-image img {
+            height: 26vw;
+        }
+
+        .project-description {
+            padding: 2em 0;
+            width: 53vw;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1vw;
+        }
+
+        .project-description h3 {
+            font-size: 2vw;
+            color: #e03636;
+        }
+
+        .project-description p {
+            font-size: 1.5vw;
+            color: #0a0a0a;
+        }
+
+        @media only screen and (max-width: 900px) {
+            .cursor-area {
+                scale: 0;
+            }
+
+            .cursor {
+                scale: 0;
+            }
+
+            .back-arrow svg {
+                height: 5vw;
+            }
+
+            .project-image {
+                height: 40vw;
+            }
+
+            .project-image img {
+                height: 40vw;
+            }
+
+            .project-description {
+                padding: 3em 0;
+                width: 80vw;
+                gap: 2vw;
+            }
+
+            .project-description p {
+                font-size: 3vw;
+            }
+
+            .project-description h3 {
+                font-size: 4vw;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            .back-arrow svg {
+                height: 6vw;
+            }
+
+            .project-image {
+                height: 45vw;
+            }
+
+            .project-image img {
+                height: 45vw;
+            }
+
+            .project-description {
+                padding: 3em 0;
+                width: 85vw;
+                gap: 3vw;
+            }
+
+            .project-description p {
+                font-size: 5vw;
+            }
+
+            .project-description h3 {
+                font-size: 6vw;
+            }
+        }
+
+        @media only screen and (max-width: 400px) {
+            .back-arrow svg {
+                height: 7vw;
+            }
+
+            .project-image {
+                height: 50vw;
+            }
+
+            .project-image img {
+                height: 50vw;
+            }
+
+            .project-description {
+                padding: 3em 0;
+                width: 90vw;
+                gap: 4vw;
+            }
+
+            .project-description p {
+                font-size: 6vw;
+            }
+
+            .project-description h3 {
+                font-size: 7vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="project">
+
+        <div class="cursor-area">
+            <div class="cursor"></div>
+        </div>
+
+        <div class="project-image">
+            <div class="back-arrow"><a href="/projects.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                            d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z">
+                        </path>
+                    </svg></a></div>
+            <img src="/assets/project3.png" alt="">
+
+        </div>
+
+        <div class="project-description">
+
+            <p>Link:
+                <a href="https://vipulgoel08.github.io/Image-Search-Web-app/" target="_blank">
+                    https://vipulgoel08.github.io/Image-Search-Web-app/</a>
+            </p>
+
+            <h3>
+                Description
+            </h3>
+            <p>A web application built with HTML, CSS, and JavaScript that enables users to search for images
+                seamlessly. It features a clean and responsive design, providing an intuitive user experience for
+                exploring and downloading images.</p>
+            <h3>
+                Tech used
+            </h3>
+            <p>HTML, CSS, Javascript, API Integration, Frontend Development</p>
+
+            <h3>Time Period</h3>
+            <p>January 2024 - February 2024</p>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        //cursor follower
+        let cursor = document.querySelector(".cursor");
+        window.addEventListener("mousemove", function (e) {
+            gsap.to(cursor, {
+                x: e.x + 5,
+                y: e.y + 5,
+                duration: 1,
+                ease: "power1.out",
+            });
+        });
+
+        // project opening
+        gsap.from(".project-image", {
+            opacity: 0,
+            duration: 1,
+            x: -50
+        })
+        gsap.from(".project-description h3, .project-description p", {
+            opacity: 0,
+            duration: 1,
+            x: -50,
+            stagger: .2
+        })
+
+    </script>
+</body>
+
+</html>
