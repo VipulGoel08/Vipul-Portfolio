@@ -777,6 +777,10 @@ form button {
     font-size: 6.5vw;
   }
 
+  .pre-loader-btn{
+    bottom: 5em;
+  }
+
   .about-section {
     padding: 3.5em 4em;
     display: flex;
@@ -910,7 +914,7 @@ form button {
 
   .menu-footer {
     font-size: 2.5vw;
-    bottom: 1.2em;
+    bottom: 4.2em;
   }
 }
 
